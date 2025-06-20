@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voda - Премиальный ресторан</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo"><img src="icons/logo.svg" alt="logo" style="width: 150px;"></a>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="index.html" class="header__menu-link">Главная</a></li>
+                    <li class="header__menu-item"><a href="menu.html" class="header__menu-link">Меню</a></li>
+                    <li class="header__menu-item"><a href="booking.html" class="header__menu-link">Бронирование</a></li>
+                    <li class="header__menu-item"><a href="promotions.html" class="header__menu-link">Акции</a></li>
+                    <li class="header__menu-item"><a href="gallery.html" class="header__menu-link">Галерея</a></li>
+                    <li class="header__menu-item"><a href="contacts.html" class="header__menu-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__slider">
+                <div class="hero__slide active">
+                    <img src="img/1.jpeg" alt="Ресторан Voda" class="hero__image">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Добро пожаловать в Voda</h1>
+                        <p class="hero__subtitle">Премиальный ресторан с авторской кухней</p>
+                        <a href="booking.html" class="hero__button">Забронировать столик</a>
+                    </div>
+                </div>
+                <div class="hero__slide">
+                    <img src="img/2.jpeg" alt="Меню ресторана" class="hero__image">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Авторская кухня</h1>
+                        <p class="hero__subtitle">Уникальные блюда от нашего шеф-повара</p>
+                        <a href="menu.html" class="hero__button">Смотреть меню</a>
+                    </div>
+                </div>
+                <div class="hero__slide">
+                    <img src="img/3.jpeg" alt="События" class="hero__image">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Специальные события</h1>
+                        <p class="hero__subtitle">Организация праздников и мероприятий</p>
+                        <a href="contacts.html" class="hero__button">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__controls">
+                <button class="hero__control hero__control--prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="hero__control hero__control--next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about__container">
+                <div class="about__content">
+                    <h2 class="about__title">О ресторане Voda</h2>
+                    <p class="about__text">Ресторан Voda — это место, где встречаются изысканная кухня, элегантный интерьер и безупречный сервис. Наш шеф-повар создает уникальные блюда, сочетающие традиционные рецепты с современными техниками приготовления.</p>
+                    <p class="about__text">Мы гордимся тем, что используем только свежие, сезонные продукты от местных поставщиков, что позволяет нам гарантировать высочайшее качество каждого блюда.</p>
+                    <a href="menu.html" class="about__button">Узнать больше</a>
+                </div>
+                <div class="about__image">
+                    <img src="img/opis.jpeg" alt="Интерьер ресторана">
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="features__container">
+                <h2 class="features__title">Наши преимущества</h2>
+                <div class="features__grid">
+                    <div class="features__item">
+                        <i class="fas fa-utensils features__icon"></i>
+                        <h3 class="features__item-title">Авторская кухня</h3>
+                        <p class="features__item-text">Уникальные блюда от нашего шеф-повара</p>
+                    </div>
+                    <div class="features__item">
+                        <i class="fas fa-wine-glass-alt features__icon"></i>
+                        <h3 class="features__item-title">Винная карта</h3>
+                        <p class="features__item-text">Более 200 наименований вин со всего мира</p>
+                    </div>
+                    <div class="features__item">
+                        <i class="fas fa-calendar-alt features__icon"></i>
+                        <h3 class="features__item-title">События</h3>
+                        <p class="features__item-text">Организация праздников и мероприятий</p>
+                    </div>
+                    <div class="features__item">
+                        <i class="fas fa-star features__icon"></i>
+                        <h3 class="features__item-title">Сервис</h3>
+                        <p class="features__item-text">Профессиональное обслуживание</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="testimonials__container">
+                <h2 class="testimonials__title">Отзывы наших гостей</h2>
+                <div class="testimonials__slider">
+                    <div class="testimonials__slide active">
+                        <div class="testimonials__content">
+                            <p class="testimonials__text">"Невероятный вечер в ресторане Voda! Блюда были восхитительными, а обслуживание на высшем уровне. Обязательно вернемся снова!"</p>
+                            <div class="testimonials__author">
+                                <img src="img/1.jpeg" alt="Анна" class="testimonials__avatar">
+                                <div class="testimonials__info">
+                                    <h4 class="testimonials__name">Анна</h4>
+                                    <div class="testimonials__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__slide">
+                        <div class="testimonials__content">
+                            <p class="testimonials__text">"Отличное место для особых случаев. Интерьер, кухня и сервис - всё на высоте. Рекомендую!"</p>
+                            <div class="testimonials__author">
+                                <img src="img/2.jpeg" alt="Михаил" class="testimonials__avatar">
+                                <div class="testimonials__info">
+                                    <h4 class="testimonials__name">Михаил</h4>
+                                    <div class="testimonials__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__controls">
+                    <button class="testimonials__control testimonials__control--prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="testimonials__control testimonials__control--next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="news__container">
+                <h2 class="news__title">Новости и события</h2>
+                <div class="news__grid">
+                    <article class="news__item">
+                        <img src="img/sob.jpeg" alt="Новое меню" class="news__image">
+                        <div class="news__content">
+                            <h3 class="news__item-title">Новое сезонное меню</h3>
+                            <p class="news__item-text">Попробуйте наши новые блюда из сезонных продуктов</p>
+                            <a href="menu.html" class="news__link">Подробнее</a>
+                        </div>
+                    </article>
+                    <article class="news__item">
+                        <img src="img/vin.jpeg" alt="Винный ужин" class="news__image">
+                        <div class="news__content">
+                            <h3 class="news__item-title">Винный ужин</h3>
+                            <p class="news__item-text">Специальное меню с дегустацией вин</p>
+                            <a href="promotions.html" class="news__link">Подробнее</a>
+                        </div>
+                    </article>
+                    <article class="news__item">
+                        <img src="img/class.jpeg" alt="Кулинарный мастер-класс" class="news__image">
+                        <div class="news__content">
+                            <h3 class="news__item-title">Кулинарный мастер-класс</h3>
+                            <p class="news__item-text">Учитесь готовить у нашего шеф-повара</p>
+                            <a href="promotions.html" class="news__link">Подробнее</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">Адрес</h3>
+                    <p class="footer__text">ул. Фридриха Энгельса, 2<br>Калязин, Россия</p>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__title">Контакты</h3>
+                    <p class="footer__text">Телефон: +7 (999) 123-45-67<br>Email: info@voda-restaurant.ru</p>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__title">Социальные сети</h3>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2025 Voda. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="js/main.js"></script>
+</body>
+</html> 
