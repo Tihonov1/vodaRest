@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Voda</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="/" class="header__logo-link"><img src="icons/logo.svg" alt="logo" style="width: 150px;"></a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="/" class="header__menu-link">Главная</a></li>
+                    <li class="header__menu-item"><a href="/menu.html" class="header__menu-link">Меню</a></li>
+                    <li class="header__menu-item"><a href="/booking.html" class="header__menu-link">Бронирование</a></li>
+                    <li class="header__menu-item"><a href="/promotions.html" class="header__menu-link">Акции</a></li>
+                    <li class="header__menu-item"><a href="/gallery.html" class="header__menu-link">Галерея</a></li>
+                    <li class="header__menu-item"><a href="/contacts.html" class="header__menu-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacts">
+            <div class="contacts__container">
+                <h1 class="contacts__title">Контакты</h1>
+
+                <div class="contacts__content">
+                    <div class="contacts__info">
+                        <div class="contacts__block">
+                            <h2>Адрес</h2>
+                            <p>ул. Фридриха Энгельса, 2<br>Калязин, Россия</p>
+                        </div>
+
+                        <div class="contacts__block">
+                            <h2>Телефоны</h2>
+                            <p>Бронирование: +7 (999) 123-45-67</p>
+                            <p>Администратор: +7 (999) 765-43-21</p>
+                        </div>
+
+                        <div class="contacts__block">
+                            <h2>Email</h2>
+                            <p>info@voda-restaurant.ru</p>
+                            <p>booking@voda-restaurant.ru</p>
+                        </div>
+
+                        <div class="contacts__block">
+                            <h2>Режим работы</h2>
+                            <p>Пн-Чт: 12:00 - 23:00</p>
+                            <p>Пт-Сб: 12:00 - 00:00</p>
+                            <p>Вс: 12:00 - 22:00</p>
+                        </div>
+
+                        <div class="contacts__block">
+                            <h2>Социальные сети</h2>
+                            <div class="contacts__social">
+                                <a href="#" class="contacts__social-link">Instagram</a>
+                                <a href="#" class="contacts__social-link">Facebook</a>
+                                <a href="#" class="contacts__social-link">VK</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contacts__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1079.4628102200156!2d37.857324152575416!3d57.2408515189919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1750265414431!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="contacts__form-container">
+                    <h2>Напишите нам</h2>
+                    <form class="contacts__form" id="contactForm">
+                        <div class="contacts__form-group">
+                            <label for="name">Ваше имя *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="contacts__form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="contacts__form-group">
+                            <label for="subject">Тема</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+
+                        <div class="contacts__form-group">
+                            <label for="message">Сообщение *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="contacts__submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__info">
+                <div class="footer__address">
+                    <h3>Адрес</h3>
+                    <p>ул. Фридриха Энгельса, 2<br>Калязин, Россия</p>
+                </div>
+                <div class="footer__contacts">
+                    <h3>Контакты</h3>
+                    <p>Телефон: +7 (999) 123-45-67</p>
+                    <p>Email: info@voda-restaurant.ru</p>
+                </div>
+                <div class="footer__social">
+                    <h3>Социальные сети</h3>
+                    <div class="footer__social-links">
+                        <a href="#" class="footer__social-link">Instagram</a>
+                        <a href="#" class="footer__social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; 2025 Ресторан Voda. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

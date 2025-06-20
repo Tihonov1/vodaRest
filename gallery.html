@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея - Voda</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="/" class="header__logo-link"><img src="icons/logo.svg" alt="logo" style="width: 150px;"></a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="/" class="header__menu-link">Главная</a></li>
+                    <li class="header__menu-item"><a href="/menu.html" class="header__menu-link">Меню</a></li>
+                    <li class="header__menu-item"><a href="/booking.html" class="header__menu-link">Бронирование</a></li>
+                    <li class="header__menu-item"><a href="/promotions.html" class="header__menu-link">Акции</a></li>
+                    <li class="header__menu-item"><a href="/gallery.html" class="header__menu-link">Галерея</a></li>
+                    <li class="header__menu-item"><a href="/contacts.html" class="header__menu-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <div class="gallery__container">
+                <h1 class="gallery__title gallery__title--parallax">Галерея</h1>
+                <div class="gallery__mosaic" id="lightgallery">
+                    <a href="img/1.jpeg" class="gallery__item gallery__item--large" data-category="interior">
+                        <img src="img/1.jpeg" alt="Интерьер ресторана">
+                        <div class="gallery__item-overlay">
+                            <span class="gallery__item-title">Главный зал</span>
+                        </div>
+                    </a>
+                    <a href="img/rib.jpeg" class="gallery__item gallery__item--tall" data-category="food">
+                        <img src="img/kok.jpeg" alt="Фирменное блюдо">
+                        <div class="gallery__item-overlay">
+                            <span class="gallery__item-title">Фирменный коктейль</span>
+                        </div>
+                    </a>
+                    <a href="img/svad.jpeg" class="gallery__item" data-category="events">
+                        <img src="img/svad.jpeg" alt="Свадебное торжество">
+                        <div class="gallery__item-overlay">
+                            <span class="gallery__item-title">Свадебное торжество</span>
+                        </div>
+                    </a>
+                    <a href="img/bar.jpeg" class="gallery__item" data-category="interior">
+                        <img src="img/bar.jpeg" alt="Барная стойка">
+                        <div class="gallery__item-overlay">
+                            <span class="gallery__item-title">Барная стойка</span>
+                        </div>
+                    </a>
+                    <a href="img/shok.jpeg" class="gallery__item gallery__item--wide" data-category="food">
+                        <img src="img/shok.jpeg" alt="Десерт">
+                        <div class="gallery__item-overlay">
+                            <span class="gallery__item-title">Шоколадный фондан</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__info">
+                <div class="footer__address">
+                    <h3>Адрес</h3>
+                    <p>ул. Примерная, 123</p>
+                </div>
+                <div class="footer__contacts">
+                    <h3>Контакты</h3>
+                    <p>Телефон: +7 (999) 123-45-67</p>
+                    <p>Email: info@voda-restaurant.ru</p>
+                </div>
+                <div class="footer__social">
+                    <h3>Социальные сети</h3>
+                    <div class="footer__social-links">
+                        <a href="#" class="footer__social-link">Instagram</a>
+                        <a href="#" class="footer__social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; 2024 Ресторан Voda. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
